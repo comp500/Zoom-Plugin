@@ -63,8 +63,10 @@ textarea {
 .content {
 	margin: 1.875em;
 	background-color:white;
-	opacity: 0.8;
-	filter:alpha(opacity=80); /* For IE8 and earlier */
+	/* Fallback for web browsers that don't support RGBa */
+	background-color: rgb(255, 255, 255);
+	/* RGBa with 0.8 opacity */
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 img {
