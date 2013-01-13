@@ -69,7 +69,7 @@ img {
 }
 
 body {
-	background-image:url('back.png');
+	background-image:url('http://comp500.github.com/Zoom-Plugin/back.png');
 	background-attachment:fixed;
 }
 
